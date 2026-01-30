@@ -1,6 +1,6 @@
 # .NET 10 + Angular 21 SPA
 
-Простой проект для лайв-кодинга: API с методом GetAll и таблица в Angular.
+API с методом GetAll и таблица в Angular.
 
 ## Запуск
 
