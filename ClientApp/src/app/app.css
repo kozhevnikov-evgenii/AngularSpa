@@ -1,0 +1,23 @@
+.header {
+  border-bottom: 1px solid #ddd;
+  padding: 0.75rem 1rem;
+  background: #f8f9fa;
+}
+.nav {
+  display: flex;
+  gap: 1.5rem;
+}
+.nav a {
+  color: #333;
+  text-decoration: none;
+}
+.nav a:hover {
+  text-decoration: underline;
+}
+.nav a.active {
+  font-weight: 600;
+  color: #1976d2;
+}
+.main {
+  padding: 1rem;
+}

@@ -1,0 +1,20 @@
+<h1>Создание компании</h1>
+<form class="company-form">
+  <div class="form-group">
+    <label for="name">Название компании</label>
+    <input id="name" type="text" placeholder="Введите название" />
+  </div>
+  <div class="form-group">
+    <label for="activity">Вид деятельности</label>
+    <select id="activity">
+      <option value="">Выберите вид деятельности</option>
+      <option value="1">Продуктовая</option>
+      <option value="2">Транспортная</option>
+      <option value="3">Благотворительная</option>
+    </select>
+  </div>
+  <div class="form-actions">
+    <button type="submit">Создать</button>
+    <a routerLink="/" class="btn-link">Отмена</a>
+  </div>
+</form>
