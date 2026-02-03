@@ -1,4 +1,4 @@
-using angularSPA.Data;
+using AngularSPA.Data;
 using Microsoft.EntityFrameworkCore;
 using System.Text.Json.Serialization;
 

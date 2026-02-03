@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using angularSPA.Data;
+using AngularSPA.Data;
 
 #nullable disable
 
-namespace angularSPA.Migrations
+namespace AngularSPA.Migrations
 {
     [DbContext(typeof(AppDbContext))]
     [Migration("20260130120905_InitialCreate")]
@@ -20,7 +20,7 @@ namespace angularSPA.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "10.0.2");
 
-            modelBuilder.Entity("angularSPA.Models.Activity", b =>
+            modelBuilder.Entity("AngularSPA.Models.Activity", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -53,7 +53,7 @@ namespace angularSPA.Migrations
                         });
                 });
 
-            modelBuilder.Entity("angularSPA.Models.Company", b =>
+            modelBuilder.Entity("AngularSPA.Models.Company", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -136,9 +136,9 @@ namespace angularSPA.Migrations
                         });
                 });
 
-            modelBuilder.Entity("angularSPA.Models.Company", b =>
+            modelBuilder.Entity("AngularSPA.Models.Company", b =>
                 {
-                    b.HasOne("angularSPA.Models.Activity", "Activity")
+                    b.HasOne("AngularSPA.Models.Activity", "Activity")
                         .WithMany("Companies")
                         .HasForeignKey("ActivityId")
                         .OnDelete(DeleteBehavior.Restrict)
@@ -147,7 +147,7 @@ namespace angularSPA.Migrations
                     b.Navigation("Activity");
                 });
 
-            modelBuilder.Entity("angularSPA.Models.Activity", b =>
+            modelBuilder.Entity("AngularSPA.Models.Activity", b =>
                 {
                     b.Navigation("Companies");
                 });

@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using angularSPA.Models;
+using AngularSPA.Models;
 
-namespace angularSPA.Data;
+namespace AngularSPA.Data;
 
 public class AppDbContext : DbContext
 {

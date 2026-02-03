@@ -1,9 +1,8 @@
-using angularSPA.Data;
-using angularSPA.Models;
+using AngularSPA.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace angularSPA.Controllers;
+namespace AngularSPA.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]

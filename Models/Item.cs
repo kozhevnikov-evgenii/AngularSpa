@@ -1,4 +1,4 @@
-namespace angularSPA.Models;
+namespace AngularSPA.Models;
 
 public class Item
 {
