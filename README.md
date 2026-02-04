@@ -17,8 +17,3 @@ npm install
 npm start
 ```
 Angular: http://localhost:4200 (проксирует /api на backend)
-
-## Структура
-
-- **Backend:** `Controllers/ItemsController.cs` — метод `GetAll()` возвращает список элементов
-- **Frontend:** `ClientApp/src/app/` — сервис вызывает API, таблица в `app.html`
