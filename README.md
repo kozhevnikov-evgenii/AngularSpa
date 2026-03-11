@@ -9,6 +9,8 @@ API с методом GetAll и таблица в Angular.
 dotnet run
 ```
 API: http://localhost:5284/api/items
+Swagger UI: http://localhost:5284/swagger/index.html
+Swagger json: http://localhost:5284/openapi/v1.json
 
 **Терминал 2 — frontend:**
 ```bash
